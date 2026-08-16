@@ -4,10 +4,13 @@ import Experience from "./pages/Experience";
 import AIRecruitmentPage from "./pages/AIRecruitmentPage";
 import HumanIntelligencePage from "./pages/HumanIntelligencePage";
 import MinivelAdvantagePage from "./pages/MinivelAdvantagePage";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+
+      <ScrollToTop />
       <Routes>
         {/* Main landing experience */}
         <Route path="/" element={<Experience />} />
