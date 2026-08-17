@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ScrollReveal from "../components/ScrollReveal";
 
 function HumanIntelligencePage() {
   return (
@@ -58,240 +59,255 @@ function HumanIntelligencePage() {
       </header>
 
 
-      {/* ========================================
-          HERO
-      ========================================= */}
-      <section className="bg-white">
-        <div className="page-container">
-          <div className="py-[96px] md:py-[112px]">
+     {/* ========================================
+    HERO
+========================================= */}
+<section className="bg-white">
+  <div className="page-container">
+    <div className="py-[96px] md:py-[112px]">
 
-            <div className="max-w-[920px]">
+      <ScrollReveal>
+        <div className="max-w-[920px]">
 
-              {/* Label */}
-              <p className="section-label">
-                AI × Human Intelligence
-              </p>
-
-
-              {/* Heading */}
-              <h1
-                className="
-                  mt-7
-                  max-w-[900px]
-                  text-[42px]
-                  font-semibold
-                  leading-[1.12]
-                  tracking-[-0.04em]
-                  text-[#172b4d]
-                  sm:text-[50px]
-                  md:text-[58px]
-                "
-              >
-                Technology can recognise patterns.
-
-                <span className="mt-3 block text-[#5fbe3e]">
-                  People understand what they mean.
-                </span>
-              </h1>
+          {/* Label */}
+          <p className="section-label">
+            AI × Human Intelligence
+          </p>
 
 
-              {/* Main description */}
-              <p
-                className="
-                  mt-10
-                  max-w-[750px]
-                  text-[17px]
-                  leading-[1.9]
-                  text-slate-600
-                  sm:text-[18px]
-                "
-              >
-                Recruitment involves information — skills, experience,
-                qualifications and career history. Technology can help teams
-                work through that information faster. But a hiring decision
-                rarely comes from information alone.
-              </p>
+          {/* Heading */}
+          <h1
+            className="
+              mt-7
+              max-w-[900px]
+              text-[42px]
+              font-semibold
+              leading-[1.12]
+              tracking-[-0.04em]
+              text-[#172b4d]
+              sm:text-[50px]
+              md:text-[58px]
+            "
+          >
+            Technology can recognise patterns.
+
+            <span className="mt-3 block text-[#5fbe3e]">
+              People understand what they mean.
+            </span>
+          </h1>
 
 
-              {/* Secondary description */}
-              <p
-                className="
-                  mt-6
-                  max-w-[720px]
-                  text-[15px]
-                  leading-[1.9]
-                  text-slate-500
-                  sm:text-[16px]
-                "
-              >
-                At Minivel, we see the strongest opportunity where technology
-                and recruiter experience work together: one helping bring the
-                right signals into focus, the other understanding the people
-                and circumstances behind them.
-              </p>
+          {/* Main description */}
+          <p
+            className="
+              mt-10
+              max-w-[750px]
+              text-[17px]
+              leading-[1.9]
+              text-slate-600
+              sm:text-[18px]
+            "
+          >
+            Recruitment involves information — skills, experience,
+            qualifications and career history. Technology can help teams
+            work through that information faster. But a hiring decision
+            rarely comes from information alone.
+          </p>
 
 
-              {/* Accent */}
-              <div
-                className="
-                  mt-12
-                  h-[3px]
-                  w-[88px]
-                  rounded-full
-                  bg-gradient-to-r
-                  from-blue-600
-                  via-cyan-500
-                  to-[#5fbe3e]
-                "
-              />
+          {/* Secondary description */}
+          <p
+            className="
+              mt-6
+              max-w-[720px]
+              text-[15px]
+              leading-[1.9]
+              text-slate-500
+              sm:text-[16px]
+            "
+          >
+            At Minivel, we see the strongest opportunity where technology
+            and recruiter experience work together: one helping bring the
+            right signals into focus, the other understanding the people
+            and circumstances behind them.
+          </p>
 
-            </div>
-          </div>
+
+          {/* Accent */}
+          <div
+            className="
+              mt-12
+              h-[3px]
+              w-[88px]
+              rounded-full
+              bg-gradient-to-r
+              from-blue-600
+              via-cyan-500
+              to-[#5fbe3e]
+            "
+          />
+
         </div>
-      </section>
-      {/* ========================================
+      </ScrollReveal>
+
+    </div>
+  </div>
+</section>
+
+
+{/* ========================================
     SECTION 01 — TWO DIFFERENT STRENGTHS
 ========================================= */}
 <section className="document-section document-section--soft">
   <div className="page-container">
 
     {/* Intro */}
-    <div className="max-w-[840px]">
-      <p className="section-label">
-        Two Different Strengths
-      </p>
+    <ScrollReveal>
+      <div className="max-w-[840px]">
+        <p className="section-label">
+          Two Different Strengths
+        </p>
 
-      <h2 className="document-heading">
-        Technology brings speed and structure.
-        <span className="mt-2 block text-slate-500">
-          Recruiters bring context and judgement.
-        </span>
-      </h2>
+        <h2 className="document-heading">
+          Technology brings speed and structure.
+          <span className="mt-2 block text-slate-500">
+            Recruiters bring context and judgement.
+          </span>
+        </h2>
 
-      <p className="document-text">
-        AI can help recruitment teams work through more candidate information,
-        compare relevant details and bring stronger matches into focus sooner.
-        Recruiters add the understanding that data alone cannot provide —
-        motivation, communication, expectations and fit.
-      </p>
-    </div>
+        <p className="document-text">
+          AI can help recruitment teams work through more candidate information,
+          compare relevant details and bring stronger matches into focus sooner.
+          Recruiters add the understanding that data alone cannot provide —
+          motivation, communication, expectations and fit.
+        </p>
+      </div>
+    </ScrollReveal>
 
 
     {/* Cards */}
-    <div className="mt-14 grid gap-7 lg:grid-cols-2">
+    <div className="mt-14 grid items-stretch gap-7 lg:grid-cols-2">
 
       {/* AI CARD */}
-      <article
-        className="
-          premium-card
-          min-w-0
-          border-blue-100
-        "
-      >
-        <p className="premium-card-label">
-          AI Brings
-        </p>
-
-        <h3
+      <ScrollReveal delay={0} className="h-full">
+        <article
           className="
-            mt-5
-            text-[22px]
-            font-semibold
-            leading-[1.35]
-            tracking-[-0.02em]
-            text-[#172b4d]
+            premium-card
+            min-w-0
+            h-full
+            border-blue-100
           "
         >
-          Speed, structure and clearer signals.
-        </h3>
-
-        <p
-          className="
-            mt-4
-            text-[15px]
-            leading-[1.8]
-            text-slate-600
-          "
-        >
-          Technology can help organise candidate information, compare skills
-          against role requirements and make larger talent pools easier to
-          review.
-        </p>
-
-        <div className="mt-6 border-t border-slate-200 pt-5">
-          <p className="text-[13px] font-semibold leading-[1.6] text-blue-600">
-            Useful for discovery, comparison and prioritisation.
+          <p className="premium-card-label">
+            AI Brings
           </p>
-        </div>
-      </article>
+
+          <h3
+            className="
+              mt-5
+              text-[22px]
+              font-semibold
+              leading-[1.35]
+              tracking-[-0.02em]
+              text-[#172b4d]
+            "
+          >
+            Speed, structure and clearer signals.
+          </h3>
+
+          <p
+            className="
+              mt-4
+              text-[15px]
+              leading-[1.8]
+              text-slate-600
+            "
+          >
+            Technology can help organise candidate information, compare skills
+            against role requirements and make larger talent pools easier to
+            review.
+          </p>
+
+          <div className="mt-6 border-t border-slate-200 pt-5">
+            <p className="text-[13px] font-semibold leading-[1.6] text-blue-600">
+              Useful for discovery, comparison and prioritisation.
+            </p>
+          </div>
+        </article>
+      </ScrollReveal>
 
 
       {/* HUMAN CARD */}
-      <article
-        className="
-          premium-card
-          min-w-0
-          border-green-100
-        "
-      >
-        <p
-          className="premium-card-label"
-          style={{ color: "#5fbe3e" }}
-        >
-          Recruiters Bring
-        </p>
-
-        <h3
+      <ScrollReveal delay={0.12} className="h-full">
+        <article
           className="
-            mt-5
-            text-[22px]
-            font-semibold
-            leading-[1.35]
-            tracking-[-0.02em]
-            text-[#172b4d]
+            premium-card
+            min-w-0
+            h-full
+            border-green-100
           "
         >
-          Context, conversation and judgement.
-        </h3>
-
-        <p
-          className="
-            mt-4
-            text-[15px]
-            leading-[1.8]
-            text-slate-600
-          "
-        >
-          Recruiters understand why someone is considering a move, what they
-          are looking for next and whether the opportunity makes sense beyond
-          the information written on a profile.
-        </p>
-
-        <div className="mt-6 border-t border-slate-200 pt-5">
-          <p className="text-[13px] font-semibold leading-[1.6] text-green-600">
-            Essential for motivation, fit and final decision-making.
+          <p
+            className="premium-card-label"
+            style={{ color: "#5fbe3e" }}
+          >
+            Recruiters Bring
           </p>
-        </div>
-      </article>
+
+          <h3
+            className="
+              mt-5
+              text-[22px]
+              font-semibold
+              leading-[1.35]
+              tracking-[-0.02em]
+              text-[#172b4d]
+            "
+          >
+            Context, conversation and judgement.
+          </h3>
+
+          <p
+            className="
+              mt-4
+              text-[15px]
+              leading-[1.8]
+              text-slate-600
+            "
+          >
+            Recruiters understand why someone is considering a move, what they
+            are looking for next and whether the opportunity makes sense beyond
+            the information written on a profile.
+          </p>
+
+          <div className="mt-6 border-t border-slate-200 pt-5">
+            <p className="text-[13px] font-semibold leading-[1.6] text-green-600">
+              Essential for motivation, fit and final decision-making.
+            </p>
+          </div>
+        </article>
+      </ScrollReveal>
 
     </div>
 
 
     {/* Closing thought */}
-    <div className="mt-12 max-w-[780px]">
-      <p
-        className="
-          text-[17px]
-          font-medium
-          leading-[1.85]
-          text-[#172b4d]
-        "
-      >
-        The real advantage comes from combining both — using technology to
-        make information clearer and recruiter experience to decide what that
-        information actually means.
-      </p>
-    </div>
+    <ScrollReveal delay={0.1}>
+      <div className="mt-12 max-w-[780px]">
+        <p
+          className="
+            text-[17px]
+            font-medium
+            leading-[1.85]
+            text-[#172b4d]
+          "
+        >
+          The real advantage comes from combining both — using technology to
+          make information clearer and recruiter experience to decide what that
+          information actually means.
+        </p>
+      </div>
+    </ScrollReveal>
 
   </div>
 </section>
@@ -303,149 +319,159 @@ function HumanIntelligencePage() {
   <div className="page-container">
 
     {/* Intro */}
-    <div className="max-w-[840px]">
-      <p className="section-label">
-        Where Human Judgement Matters Most
-      </p>
+    <ScrollReveal>
+      <div className="max-w-[840px]">
+        <p className="section-label">
+          Where Human Judgement Matters Most
+        </p>
 
-      <h2 className="document-heading">
-        Good hiring needs more than a strong match.
-        <span className="mt-2 block text-slate-500">
-          It needs understanding.
-        </span>
-      </h2>
+        <h2 className="document-heading">
+          Good hiring needs more than a strong match.
+          <span className="mt-2 block text-slate-500">
+            It needs understanding.
+          </span>
+        </h2>
 
-      <p className="document-text">
-        AI can help identify relevant profiles and organise information, but
-        the final decision still depends on what happens after that shortlist.
-        Recruiters need to understand the person, the opportunity and whether
-        the two genuinely fit together.
-      </p>
-    </div>
+        <p className="document-text">
+          AI can help identify relevant profiles and organise information, but
+          the final decision still depends on what happens after that shortlist.
+          Recruiters need to understand the person, the opportunity and whether
+          the two genuinely fit together.
+        </p>
+      </div>
+    </ScrollReveal>
 
 
     {/* Cards */}
-    <div className="mt-14 grid gap-7 md:grid-cols-3">
+    <div className="mt-14 grid items-stretch gap-7 md:grid-cols-3">
 
       {/* Card 1 */}
-      <article className="premium-card min-w-0">
-        <p className="premium-card-label">
-          Motivation
-        </p>
+      <ScrollReveal delay={0} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p className="premium-card-label">
+            Motivation
+          </p>
 
-        <h3
-          className="
-            mt-5
-            text-[21px]
-            font-semibold
-            leading-[1.35]
-            tracking-[-0.02em]
-            text-[#172b4d]
-          "
-        >
-          Why does the candidate want to move?
-        </h3>
+          <h3
+            className="
+              mt-5
+              text-[21px]
+              font-semibold
+              leading-[1.35]
+              tracking-[-0.02em]
+              text-[#172b4d]
+            "
+          >
+            Why does the candidate want to move?
+          </h3>
 
-        <p
-          className="
-            mt-4
-            text-[14px]
-            leading-[1.8]
-            text-slate-600
-          "
-        >
-          Understanding what someone wants from their next opportunity helps
-          recruiters judge whether the role really fits their direction.
-        </p>
-      </article>
+          <p
+            className="
+              mt-4
+              text-[14px]
+              leading-[1.8]
+              text-slate-600
+            "
+          >
+            Understanding what someone wants from their next opportunity helps
+            recruiters judge whether the role really fits their direction.
+          </p>
+        </article>
+      </ScrollReveal>
 
 
       {/* Card 2 */}
-      <article className="premium-card min-w-0">
-        <p className="premium-card-label">
-          Expectations
-        </p>
+      <ScrollReveal delay={0.12} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p className="premium-card-label">
+            Expectations
+          </p>
 
-        <h3
-          className="
-            mt-5
-            text-[21px]
-            font-semibold
-            leading-[1.35]
-            tracking-[-0.02em]
-            text-[#172b4d]
-          "
-        >
-          What does the person expect from the role?
-        </h3>
+          <h3
+            className="
+              mt-5
+              text-[21px]
+              font-semibold
+              leading-[1.35]
+              tracking-[-0.02em]
+              text-[#172b4d]
+            "
+          >
+            What does the person expect from the role?
+          </h3>
 
-        <p
-          className="
-            mt-4
-            text-[14px]
-            leading-[1.8]
-            text-slate-600
-          "
-        >
-          Salary, responsibilities, growth and working environment all matter
-          when deciding whether an opportunity makes sense for both sides.
-        </p>
-      </article>
+          <p
+            className="
+              mt-4
+              text-[14px]
+              leading-[1.8]
+              text-slate-600
+            "
+          >
+            Salary, responsibilities, growth and working environment all matter
+            when deciding whether an opportunity makes sense for both sides.
+          </p>
+        </article>
+      </ScrollReveal>
 
 
       {/* Card 3 */}
-      <article className="premium-card min-w-0">
-        <p
-          className="premium-card-label"
-          style={{ color: "#5fbe3e" }}
-        >
-          Fit
-        </p>
+      <ScrollReveal delay={0.24} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p
+            className="premium-card-label"
+            style={{ color: "#5fbe3e" }}
+          >
+            Fit
+          </p>
 
-        <h3
-          className="
-            mt-5
-            text-[21px]
-            font-semibold
-            leading-[1.35]
-            tracking-[-0.02em]
-            text-[#172b4d]
-          "
-        >
-          Does the opportunity actually make sense?
-        </h3>
+          <h3
+            className="
+              mt-5
+              text-[21px]
+              font-semibold
+              leading-[1.35]
+              tracking-[-0.02em]
+              text-[#172b4d]
+            "
+          >
+            Does the opportunity actually make sense?
+          </h3>
 
-        <p
-          className="
-            mt-4
-            text-[14px]
-            leading-[1.8]
-            text-slate-600
-          "
-        >
-          Recruiters bring together the business requirement and the
-          candidate&apos;s situation before deciding whether the connection is
-          worth taking forward.
-        </p>
-      </article>
+          <p
+            className="
+              mt-4
+              text-[14px]
+              leading-[1.8]
+              text-slate-600
+            "
+          >
+            Recruiters bring together the business requirement and the
+            candidate&apos;s situation before deciding whether the connection is
+            worth taking forward.
+          </p>
+        </article>
+      </ScrollReveal>
 
     </div>
 
 
     {/* Closing */}
-    <div className="mt-12 max-w-[780px]">
-      <p
-        className="
-          text-[17px]
-          font-medium
-          leading-[1.85]
-          text-[#172b4d]
-        "
-      >
-        A profile may suggest that someone can do the job. Human judgement
-        helps decide whether this is the right opportunity for that person.
-      </p>
-    </div>
+    <ScrollReveal delay={0.1}>
+      <div className="mt-12 max-w-[780px]">
+        <p
+          className="
+            text-[17px]
+            font-medium
+            leading-[1.85]
+            text-[#172b4d]
+          "
+        >
+          A profile may suggest that someone can do the job. Human judgement
+          helps decide whether this is the right opportunity for that person.
+        </p>
+      </div>
+    </ScrollReveal>
 
   </div>
 </section>
@@ -457,168 +483,178 @@ function HumanIntelligencePage() {
   <div className="page-container">
 
     {/* Intro */}
-    <div className="max-w-[840px]">
-      <p className="section-label">
-        The Conversation Changes the Picture
-      </p>
+    <ScrollReveal>
+      <div className="max-w-[840px]">
+        <p className="section-label">
+          The Conversation Changes the Picture
+        </p>
 
-      <h2 className="document-heading">
-        A profile starts the conversation.
-        <span className="mt-2 block text-slate-500">
-          It should not finish it.
-        </span>
-      </h2>
+        <h2 className="document-heading">
+          A profile starts the conversation.
+          <span className="mt-2 block text-slate-500">
+            It should not finish it.
+          </span>
+        </h2>
 
-      <p className="document-text">
-        A CV gives us a useful starting point. The conversation helps us
-        understand what sits behind that experience — what the candidate wants
-        next, what matters to them and whether the opportunity genuinely makes
-        sense.
-      </p>
-    </div>
+        <p className="document-text">
+          A CV gives us a useful starting point. The conversation helps us
+          understand what sits behind that experience — what the candidate wants
+          next, what matters to them and whether the opportunity genuinely makes
+          sense.
+        </p>
+      </div>
+    </ScrollReveal>
 
 
     {/* Cards */}
-    <div className="mt-14 grid gap-7 md:grid-cols-3">
+    <div className="mt-14 grid items-stretch gap-7 md:grid-cols-3">
 
       {/* Profile */}
-      <article className="premium-card min-w-0">
-        <p className="premium-card-label">
-          The Profile
-        </p>
-
-        <h3
-          className="
-            mt-5
-            text-[21px]
-            font-semibold
-            leading-[1.35]
-            tracking-[-0.02em]
-            text-[#172b4d]
-          "
-        >
-          We see the experience.
-        </h3>
-
-        <p
-          className="
-            mt-4
-            text-[14px]
-            leading-[1.8]
-            text-slate-600
-          "
-        >
-          Skills, previous roles and career history help us understand whether
-          someone may be relevant for an opportunity.
-        </p>
-
-        <div className="mt-6 border-t border-slate-200 pt-5">
-          <p className="text-[13px] font-semibold text-blue-600">
-            The profile gives us the starting point.
+      <ScrollReveal delay={0} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p className="premium-card-label">
+            The Profile
           </p>
-        </div>
-      </article>
+
+          <h3
+            className="
+              mt-5
+              text-[21px]
+              font-semibold
+              leading-[1.35]
+              tracking-[-0.02em]
+              text-[#172b4d]
+            "
+          >
+            We see the experience.
+          </h3>
+
+          <p
+            className="
+              mt-4
+              text-[14px]
+              leading-[1.8]
+              text-slate-600
+            "
+          >
+            Skills, previous roles and career history help us understand whether
+            someone may be relevant for an opportunity.
+          </p>
+
+          <div className="mt-6 border-t border-slate-200 pt-5">
+            <p className="text-[13px] font-semibold text-blue-600">
+              The profile gives us the starting point.
+            </p>
+          </div>
+        </article>
+      </ScrollReveal>
 
 
       {/* Conversation */}
-      <article className="premium-card min-w-0">
-        <p className="premium-card-label">
-          The Conversation
-        </p>
-
-        <h3
-          className="
-            mt-5
-            text-[21px]
-            font-semibold
-            leading-[1.35]
-            tracking-[-0.02em]
-            text-[#172b4d]
-          "
-        >
-          We understand the person.
-        </h3>
-
-        <p
-          className="
-            mt-4
-            text-[14px]
-            leading-[1.8]
-            text-slate-600
-          "
-        >
-          Speaking with the candidate brings out their motivation,
-          expectations and what they actually want from their next move.
-        </p>
-
-        <div className="mt-6 border-t border-slate-200 pt-5">
-          <p className="text-[13px] font-semibold text-cyan-600">
-            Conversation adds the missing context.
+      <ScrollReveal delay={0.12} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p className="premium-card-label">
+            The Conversation
           </p>
-        </div>
-      </article>
+
+          <h3
+            className="
+              mt-5
+              text-[21px]
+              font-semibold
+              leading-[1.35]
+              tracking-[-0.02em]
+              text-[#172b4d]
+            "
+          >
+            We understand the person.
+          </h3>
+
+          <p
+            className="
+              mt-4
+              text-[14px]
+              leading-[1.8]
+              text-slate-600
+            "
+          >
+            Speaking with the candidate brings out their motivation,
+            expectations and what they actually want from their next move.
+          </p>
+
+          <div className="mt-6 border-t border-slate-200 pt-5">
+            <p className="text-[13px] font-semibold text-cyan-600">
+              Conversation adds the missing context.
+            </p>
+          </div>
+        </article>
+      </ScrollReveal>
 
 
       {/* Decision */}
-      <article className="premium-card min-w-0">
-        <p
-          className="premium-card-label"
-          style={{ color: "#5fbe3e" }}
-        >
-          The Decision
-        </p>
-
-        <h3
-          className="
-            mt-5
-            text-[21px]
-            font-semibold
-            leading-[1.35]
-            tracking-[-0.02em]
-            text-[#172b4d]
-          "
-        >
-          We understand the fit.
-        </h3>
-
-        <p
-          className="
-            mt-4
-            text-[14px]
-            leading-[1.8]
-            text-slate-600
-          "
-        >
-          With both the profile and the conversation in view, recruiters can
-          make a more informed judgement about whether to take the match
-          forward.
-        </p>
-
-        <div className="mt-6 border-t border-slate-200 pt-5">
-          <p className="text-[13px] font-semibold text-green-600">
-            Human judgement gives the information direction.
+      <ScrollReveal delay={0.24} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p
+            className="premium-card-label"
+            style={{ color: "#5fbe3e" }}
+          >
+            The Decision
           </p>
-        </div>
-      </article>
+
+          <h3
+            className="
+              mt-5
+              text-[21px]
+              font-semibold
+              leading-[1.35]
+              tracking-[-0.02em]
+              text-[#172b4d]
+            "
+          >
+            We understand the fit.
+          </h3>
+
+          <p
+            className="
+              mt-4
+              text-[14px]
+              leading-[1.8]
+              text-slate-600
+            "
+          >
+            With both the profile and the conversation in view, recruiters can
+            make a more informed judgement about whether to take the match
+            forward.
+          </p>
+
+          <div className="mt-6 border-t border-slate-200 pt-5">
+            <p className="text-[13px] font-semibold text-green-600">
+              Human judgement gives the information direction.
+            </p>
+          </div>
+        </article>
+      </ScrollReveal>
 
     </div>
 
 
     {/* Closing */}
-    <div className="mt-12 max-w-[780px]">
-      <p
-        className="
-          text-[17px]
-          font-medium
-          leading-[1.85]
-          text-[#172b4d]
-        "
-      >
-        At Minivel, technology can make the starting point smarter.
-        The conversation helps us understand whether the opportunity actually
-        makes sense for the person behind the profile.
-      </p>
-    </div>
+    <ScrollReveal delay={0.1}>
+      <div className="mt-12 max-w-[780px]">
+        <p
+          className="
+            text-[17px]
+            font-medium
+            leading-[1.85]
+            text-[#172b4d]
+          "
+        >
+          At Minivel, technology can make the starting point smarter.
+          The conversation helps us understand whether the opportunity actually
+          makes sense for the person behind the profile.
+        </p>
+      </div>
+    </ScrollReveal>
 
   </div>
 </section>
@@ -672,13 +708,14 @@ function HumanIntelligencePage() {
     }}
   >
     {/* =====================
-        INTRO
-    ====================== */}
-    <div
-      style={{
-        maxWidth: "850px",
-      }}
-    >
+    INTRO
+====================== */}
+<ScrollReveal>
+  <div
+    style={{
+      maxWidth: "850px",
+    }}
+  >
       <p
         style={{
           margin: 0,
@@ -741,6 +778,7 @@ function HumanIntelligencePage() {
         opportunity makes sense for both sides.
       </p>
     </div>
+    </ScrollReveal>
 
 
     {/* =====================
@@ -756,8 +794,10 @@ function HumanIntelligencePage() {
     >
 
       {/* TECHNOLOGY CARD */}
-      <article
-        className="group"
+      {/* TECHNOLOGY CARD */}
+<ScrollReveal delay={0} className="h-full">
+  <article
+    className="group"
         style={{
           position: "relative",
           minWidth: 0,
@@ -887,11 +927,14 @@ function HumanIntelligencePage() {
           ))}
         </div>
       </article>
+      </ScrollReveal>
 
 
       {/* RECRUITER CARD */}
-      <article
-        style={{
+      {/* RECRUITER CARD */}
+<ScrollReveal delay={0.12} className="h-full">
+  <article
+    style={{
           position: "relative",
           minWidth: 0,
           overflow: "hidden",
@@ -1020,6 +1063,7 @@ function HumanIntelligencePage() {
           ))}
         </div>
       </article>
+      </ScrollReveal>
 
     </div>
 
@@ -1027,8 +1071,13 @@ function HumanIntelligencePage() {
     {/* =====================
         MINIVEL STATEMENT
     ====================== */}
-    <div
-      style={{
+   {/* =====================
+    MINIVEL STATEMENT
+====================== */}
+<ScrollReveal delay={0.1}>
+  <div
+    style={{
+      marginTop: "40px",
         marginTop: "40px",
         padding: "26px 30px",
         borderRadius: "18px",
@@ -1051,6 +1100,7 @@ function HumanIntelligencePage() {
         decisions.
       </p>
     </div>
+    </ScrollReveal>
 
   </div>
 </section>
@@ -1062,118 +1112,130 @@ function HumanIntelligencePage() {
   <div className="page-container">
 
     {/* Intro */}
-    <div className="max-w-[860px]">
-      <p className="section-label">
-        How Minivel Uses Intelligence
-      </p>
+    <ScrollReveal>
+      <div className="max-w-[860px]">
+        <p className="section-label">
+          How Minivel Uses Intelligence
+        </p>
 
-      <h2 className="document-heading">
-        Better information helps us work faster.
-        <span className="mt-2 block text-slate-500">
-          Better understanding helps us hire smarter.
-        </span>
-      </h2>
+        <h2 className="document-heading">
+          Better information helps us work faster.
+          <span className="mt-2 block text-slate-500">
+            Better understanding helps us hire smarter.
+          </span>
+        </h2>
 
-      <p className="document-text">
-        At Minivel, technology supports the recruitment process by helping
-        teams work through information more efficiently. Recruiters then bring
-        the context needed to understand the role, the candidate and whether
-        the two genuinely fit together.
-      </p>
-    </div>
+        <p className="document-text">
+          At Minivel, technology supports the recruitment process by helping
+          teams work through information more efficiently. Recruiters then bring
+          the context needed to understand the role, the candidate and whether
+          the two genuinely fit together.
+        </p>
+      </div>
+    </ScrollReveal>
 
 
     {/* Main cards */}
-    <div className="mt-14 grid gap-7 md:grid-cols-2">
+    <div className="mt-14 grid items-stretch gap-7 md:grid-cols-2">
 
       {/* Card 1 */}
-      <article className="premium-card min-w-0">
-        <p className="premium-card-label">
-          Understand the Requirement
-        </p>
+      <ScrollReveal delay={0} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p className="premium-card-label">
+            Understand the Requirement
+          </p>
 
-        <h3 className="mt-5 text-[22px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
-          Start with what the business actually needs.
-        </h3>
+          <h3 className="mt-5 text-[22px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
+            Start with what the business actually needs.
+          </h3>
 
-        <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
-          Recruiters look beyond the job title to understand responsibilities,
-          priorities, expected skills and what success should look like in the
-          role.
-        </p>
-      </article>
+          <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
+            Recruiters look beyond the job title to understand responsibilities,
+            priorities, expected skills and what success should look like in the
+            role.
+          </p>
+        </article>
+      </ScrollReveal>
 
 
       {/* Card 2 */}
-      <article className="premium-card min-w-0">
-        <p className="premium-card-label">
-          Find Relevant Talent
-        </p>
+      <ScrollReveal delay={0.1} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p className="premium-card-label">
+            Find Relevant Talent
+          </p>
 
-        <h3 className="mt-5 text-[22px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
-          Bring stronger profiles into focus sooner.
-        </h3>
+          <h3 className="mt-5 text-[22px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
+            Bring stronger profiles into focus sooner.
+          </h3>
 
-        <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
-          Technology can support search and comparison, helping recruiters
-          spend less time sorting through noise and more time reviewing
-          relevant candidates.
-        </p>
-      </article>
+          <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
+            Technology can support search and comparison, helping recruiters
+            spend less time sorting through noise and more time reviewing
+            relevant candidates.
+          </p>
+        </article>
+      </ScrollReveal>
 
 
       {/* Card 3 */}
-      <article className="premium-card min-w-0">
-        <p
-          className="premium-card-label"
-          style={{ color: "#5fbe3e" }}
-        >
-          Look Beyond Keywords
-        </p>
+      <ScrollReveal delay={0.2} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p
+            className="premium-card-label"
+            style={{ color: "#5fbe3e" }}
+          >
+            Look Beyond Keywords
+          </p>
 
-        <h3 className="mt-5 text-[22px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
-          Understand the person behind the profile.
-        </h3>
+          <h3 className="mt-5 text-[22px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
+            Understand the person behind the profile.
+          </h3>
 
-        <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
-          Experience, motivation, communication and expectations all matter.
-          That is why recruiter conversations remain an important part of the
-          Minivel process.
-        </p>
-      </article>
+          <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
+            Experience, motivation, communication and expectations all matter.
+            That is why recruiter conversations remain an important part of the
+            Minivel process.
+          </p>
+        </article>
+      </ScrollReveal>
 
 
       {/* Card 4 */}
-      <article className="premium-card min-w-0">
-        <p
-          className="premium-card-label"
-          style={{ color: "#5fbe3e" }}
-        >
-          Connect the Right Fit
-        </p>
+      <ScrollReveal delay={0.3} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p
+            className="premium-card-label"
+            style={{ color: "#5fbe3e" }}
+          >
+            Connect the Right Fit
+          </p>
 
-        <h3 className="mt-5 text-[22px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
-          Bring the opportunity and the candidate together.
-        </h3>
+          <h3 className="mt-5 text-[22px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
+            Bring the opportunity and the candidate together.
+          </h3>
 
-        <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
-          The final value comes from understanding whether the opportunity
-          makes sense for the organisation and for the person considering the
-          move.
-        </p>
-      </article>
+          <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
+            The final value comes from understanding whether the opportunity
+            makes sense for the organisation and for the person considering the
+            move.
+          </p>
+        </article>
+      </ScrollReveal>
 
     </div>
 
 
     {/* Closing */}
-    <div className="mt-12 max-w-[800px]">
-      <p className="text-[17px] font-medium leading-[1.85] text-[#172b4d]">
-        For Minivel, intelligence is not only about technology. It is the
-        combination of better information, recruiter experience and meaningful
-        conversations that helps create stronger hiring decisions.
-      </p>
-    </div>
+    <ScrollReveal delay={0.1}>
+      <div className="mt-12 max-w-[800px]">
+        <p className="text-[17px] font-medium leading-[1.85] text-[#172b4d]">
+          For Minivel, intelligence is not only about technology. It is the
+          combination of better information, recruiter experience and meaningful
+          conversations that helps create stronger hiring decisions.
+        </p>
+      </div>
+    </ScrollReveal>
 
   </div>
 </section>
@@ -1185,95 +1247,107 @@ function HumanIntelligencePage() {
   <div className="page-container">
 
     {/* Intro */}
-    <div className="max-w-[860px]">
-      <p className="section-label">
-        The Minivel Hiring Perspective
-      </p>
+    <ScrollReveal>
+      <div className="max-w-[860px]">
+        <p className="section-label">
+          The Minivel Hiring Perspective
+        </p>
 
-      <h2 className="document-heading">
-        Good recruitment is not just about finding people.
-        <span className="mt-2 block text-slate-500">
-          It is about understanding the right fit.
-        </span>
-      </h2>
+        <h2 className="document-heading">
+          Good recruitment is not just about finding people.
+          <span className="mt-2 block text-slate-500">
+            It is about understanding the right fit.
+          </span>
+        </h2>
 
-      <p className="document-text">
-        Minivel combines recruitment experience with technology-enabled
-        processes to help businesses work through hiring requirements more
-        efficiently while keeping the candidate experience and human judgement
-        at the centre of the process.
-      </p>
-    </div>
+        <p className="document-text">
+          Minivel combines recruitment experience with technology-enabled
+          processes to help businesses work through hiring requirements more
+          efficiently while keeping the candidate experience and human judgement
+          at the centre of the process.
+        </p>
+      </div>
+    </ScrollReveal>
 
 
     {/* Perspective points */}
-    <div className="mt-16 grid gap-7 md:grid-cols-3">
+    <div className="mt-16 grid items-stretch gap-7 md:grid-cols-3">
 
-      <article className="premium-card min-w-0">
-        <p className="premium-card-label">
-          For Businesses
-        </p>
+      {/* Card 1 */}
+      <ScrollReveal delay={0} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p className="premium-card-label">
+            For Businesses
+          </p>
 
-        <h3 className="mt-5 text-[21px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
-          Understand the requirement clearly.
-        </h3>
+          <h3 className="mt-5 text-[21px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
+            Understand the requirement clearly.
+          </h3>
 
-        <p className="mt-4 text-[14px] leading-[1.8] text-slate-600">
-          Better hiring starts with understanding the role, the business need
-          and the expectations behind the requirement.
-        </p>
-      </article>
-
-
-      <article className="premium-card min-w-0">
-        <p className="premium-card-label">
-          For Candidates
-        </p>
-
-        <h3 className="mt-5 text-[21px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
-          Understand the opportunity honestly.
-        </h3>
-
-        <p className="mt-4 text-[14px] leading-[1.8] text-slate-600">
-          Candidates need more than a matching job title. They need context,
-          expectations and a clear view of whether the opportunity suits them.
-        </p>
-      </article>
+          <p className="mt-4 text-[14px] leading-[1.8] text-slate-600">
+            Better hiring starts with understanding the role, the business need
+            and the expectations behind the requirement.
+          </p>
+        </article>
+      </ScrollReveal>
 
 
-      <article className="premium-card min-w-0">
-        <p
-          className="premium-card-label"
-          style={{ color: "#5fbe3e" }}
-        >
-          For Better Hiring
-        </p>
+      {/* Card 2 */}
+      <ScrollReveal delay={0.12} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p className="premium-card-label">
+            For Candidates
+          </p>
 
-        <h3 className="mt-5 text-[21px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
-          Bring both sides together with context.
-        </h3>
+          <h3 className="mt-5 text-[21px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
+            Understand the opportunity honestly.
+          </h3>
 
-        <p className="mt-4 text-[14px] leading-[1.8] text-slate-600">
-          The strongest hiring decisions happen when business requirements and
-          candidate expectations are understood before the connection moves
-          forward.
-        </p>
-      </article>
+          <p className="mt-4 text-[14px] leading-[1.8] text-slate-600">
+            Candidates need more than a matching job title. They need context,
+            expectations and a clear view of whether the opportunity suits them.
+          </p>
+        </article>
+      </ScrollReveal>
+
+
+      {/* Card 3 */}
+      <ScrollReveal delay={0.24} className="h-full">
+        <article className="premium-card min-w-0 h-full">
+          <p
+            className="premium-card-label"
+            style={{ color: "#5fbe3e" }}
+          >
+            For Better Hiring
+          </p>
+
+          <h3 className="mt-5 text-[21px] font-semibold leading-[1.35] tracking-[-0.02em] text-[#172b4d]">
+            Bring both sides together with context.
+          </h3>
+
+          <p className="mt-4 text-[14px] leading-[1.8] text-slate-600">
+            The strongest hiring decisions happen when business requirements and
+            candidate expectations are understood before the connection moves
+            forward.
+          </p>
+        </article>
+      </ScrollReveal>
 
     </div>
 
 
     {/* Final statement */}
-    <div className="mt-14 max-w-[820px]">
-      <p className="text-[18px] font-medium leading-[1.85] text-[#172b4d]">
-        Technology can make recruitment smarter and faster. Minivel&apos;s role
-        is to make sure the process still feels informed, relevant and human.
-      </p>
-    </div>
+    <ScrollReveal delay={0.1}>
+      <div className="mt-14 max-w-[820px]">
+        <p className="text-[18px] font-medium leading-[1.85] text-[#172b4d]">
+          Technology can make recruitment smarter and faster. Minivel&apos;s role
+          is to make sure the process still feels informed, relevant and human.
+        </p>
+      </div>
+    </ScrollReveal>
 
   </div>
 </section>
-
 {/* ========================================
     FINAL PAGE NAVIGATION
 ========================================= */}

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ScrollReveal from "../components/ScrollReveal";
 
 function AIRecruitmentPage() {
   return (
@@ -158,6 +159,7 @@ function AIRecruitmentPage() {
   <div className="page-container">
 
     {/* Intro */}
+    <ScrollReveal>
     <div className="max-w-[820px]">
       <p className="section-label">
         The Shift
@@ -183,66 +185,77 @@ function AIRecruitmentPage() {
         candidates into focus sooner.
       </p>
     </div>
+    </ScrollReveal>
 
 
     {/* Evolution cards */}
-    <div className="mt-16 grid gap-6 md:grid-cols-3">
+<div className="mt-16 grid items-stretch gap-6 md:grid-cols-3">
 
-      <article className="premium-card">
-        <p className="premium-card-label">
-          Earlier
-        </p>
+  {/* Card 1 */}
+  <ScrollReveal delay={0} className="h-full">
+    <article className="premium-card h-full">
+      <p className="premium-card-label">
+        Earlier
+      </p>
 
-        <h3 className="premium-card-title">
-          Manual Search
-        </h3>
+      <h3 className="premium-card-title">
+        Manual Search
+      </h3>
 
-        <p className="premium-card-text">
-          Recruiters reviewed profiles individually, compared experience
-          manually and built shortlists through one-by-one evaluation.
-        </p>
-      </article>
-
-
-      <article className="premium-card">
-        <p className="premium-card-label">
-          The Transition
-        </p>
-
-        <h3 className="premium-card-title">
-          Digital Recruitment
-        </h3>
-
-        <p className="premium-card-text">
-          Job portals, searchable databases and applicant systems made
-          candidate discovery faster and gave recruiters better ways to
-          organise the hiring process.
-        </p>
-      </article>
+      <p className="premium-card-text">
+        Recruiters reviewed profiles individually, compared experience
+        manually and built shortlists through one-by-one evaluation.
+      </p>
+    </article>
+  </ScrollReveal>
 
 
-      <article className="premium-card">
-        <p
-          className="premium-card-label"
-          style={{ color: "#5fbe3e" }}
-        >
-          Today
-        </p>
+  {/* Card 2 */}
+  <ScrollReveal delay={0.12} className="h-full">
+    <article className="premium-card h-full">
+      <p className="premium-card-label">
+        The Transition
+      </p>
 
-        <h3 className="premium-card-title">
-          AI-Assisted Recruitment
-        </h3>
+      <h3 className="premium-card-title">
+        Digital Recruitment
+      </h3>
 
-        <p className="premium-card-text">
-          AI can help teams organise candidate information, identify relevant
-          signals and focus recruiter attention on stronger potential matches.
-        </p>
-      </article>
+      <p className="premium-card-text">
+        Job portals, searchable databases and applicant systems made
+        candidate discovery faster and gave recruiters better ways to
+        organise the hiring process.
+      </p>
+    </article>
+  </ScrollReveal>
 
-    </div>
+
+  {/* Card 3 */}
+  <ScrollReveal delay={0.24} className="h-full">
+    <article className="premium-card h-full">
+      <p
+        className="premium-card-label"
+        style={{ color: "#5fbe3e" }}
+      >
+        Today
+      </p>
+
+      <h3 className="premium-card-title">
+        AI-Assisted Recruitment
+      </h3>
+
+      <p className="premium-card-text">
+        AI can help teams organise candidate information, identify relevant
+        signals and focus recruiter attention on stronger potential matches.
+      </p>
+    </article>
+  </ScrollReveal>
+
+</div>
 
 
     {/* Closing statement */}
+    <ScrollReveal delay={0.1}>
     <div className="mt-14 max-w-[760px]">
       <p className="text-[17px] font-medium leading-[1.85] text-[#172b4d]">
         The tools have become smarter, but the responsibility remains the same:
@@ -250,6 +263,7 @@ function AIRecruitmentPage() {
         connection.
       </p>
     </div>
+    </ScrollReveal>
 
   </div>
 </section>
@@ -260,6 +274,7 @@ function AIRecruitmentPage() {
   <div className="page-container">
 
     {/* Intro */}
+    <ScrollReveal>
     <div className="max-w-[820px]">
       <p className="section-label">
         Where AI Supports Recruitment
@@ -277,12 +292,14 @@ function AIRecruitmentPage() {
         parts of hiring where they belong.
       </p>
     </div>
+    </ScrollReveal>
 
 
     {/* Cards */}
-    <div className="mt-16 grid gap-6 md:grid-cols-2">
+    <div className="mt-16 grid items-stretch gap-6 md:grid-cols-2">
 
-      <article className="premium-card">
+     <ScrollReveal delay={0} className="h-full">
+  <article className="premium-card h-full">
         <p className="premium-card-label">
           Candidate Discovery
         </p>
@@ -297,9 +314,12 @@ function AIRecruitmentPage() {
           worked on.
         </p>
       </article>
+        
+</ScrollReveal>
 
 
-      <article className="premium-card">
+      <ScrollReveal delay={0.12} className="h-full">
+  <article className="premium-card h-full">
         <p className="premium-card-label">
           Role & Skill Matching
         </p>
@@ -313,9 +333,12 @@ function AIRecruitmentPage() {
           consistently, giving recruiters a clearer starting point for review.
         </p>
       </article>
+        
+</ScrollReveal>
 
 
-      <article className="premium-card">
+      <ScrollReveal delay={0.24} className="h-full">
+  <article className="premium-card h-full">
         <p className="premium-card-label">
           Profile Organisation
         </p>
@@ -330,9 +353,12 @@ function AIRecruitmentPage() {
           understanding what matters.
         </p>
       </article>
+        
+</ScrollReveal>
 
 
-      <article className="premium-card">
+      <ScrollReveal delay={0.36} className="h-full">
+  <article className="premium-card h-full">
         <p className="premium-card-label">
           Recruiter Focus
         </p>
@@ -347,17 +373,21 @@ function AIRecruitmentPage() {
           around the opportunity.
         </p>
       </article>
+        
+</ScrollReveal>
 
     </div>
 
 
     {/* Closing line */}
-    <div className="mt-14 max-w-[760px]">
-      <p className="text-[17px] font-medium leading-[1.85] text-[#172b4d]">
-        The value of AI is not in replacing the recruiter. It is in helping the
-        recruiter reach the right conversations with better information.
-      </p>
-    </div>
+<ScrollReveal delay={0.1}>
+  <div className="mt-14 max-w-[760px]">
+    <p className="text-[17px] font-medium leading-[1.85] text-[#172b4d]">
+      The value of AI is not in replacing the recruiter. It is in helping the
+      recruiter reach the right conversations with better information.
+    </p>
+  </div>
+</ScrollReveal>
 
   </div>
 </section>
@@ -368,9 +398,9 @@ function AIRecruitmentPage() {
 <section className="document-section document-section--soft">
   <div className="page-container">
 
-    {/* Top split */}
-    <div className="grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-start lg:gap-20">
-
+   {/* Top split */}
+<ScrollReveal>
+  <div className="grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-start lg:gap-20">
       {/* Left */}
       <div className="min-w-0 max-w-[760px]">
         <p className="section-label">
@@ -399,6 +429,7 @@ function AIRecruitmentPage() {
           </span>
         </h2>
       </div>
+      
 
       {/* Right */}
       <div className="min-w-0 max-w-[560px] lg:pt-2">
@@ -429,13 +460,15 @@ function AIRecruitmentPage() {
       </div>
 
     </div>
+    </ScrollReveal>
 
 
     {/* Cards */}
     <div className="mt-16 grid gap-7 md:grid-cols-3">
 
       {/* Motivation */}
-      <article className="premium-card min-w-0">
+<ScrollReveal delay={0} className="h-full">
+  <article className="premium-card min-w-0 h-full">
         <p className="premium-card-label">
           Motivation
         </p>
@@ -466,10 +499,13 @@ function AIRecruitmentPage() {
           the opportunity genuinely fits their career direction.
         </p>
       </article>
+            
+</ScrollReveal>
 
 
       {/* Communication */}
-      <article className="premium-card min-w-0">
+<ScrollReveal delay={0.12} className="h-full">
+  <article className="premium-card min-w-0 h-full">
         <p className="premium-card-label">
           Communication
         </p>
@@ -500,10 +536,13 @@ function AIRecruitmentPage() {
           decisions and describe the work they have actually done.
         </p>
       </article>
+            
+</ScrollReveal>
 
 
-      {/* Context */}
-      <article className="premium-card min-w-0">
+     {/* Context */}
+<ScrollReveal delay={0.24} className="h-full">
+  <article className="premium-card min-w-0 h-full">
         <p
           className="premium-card-label"
           style={{ color: "#5fbe3e" }}
@@ -538,11 +577,12 @@ function AIRecruitmentPage() {
           career.
         </p>
       </article>
-
+</ScrollReveal>
     </div>
 
 
     {/* Closing statement */}
+    <ScrollReveal delay={0.1}>
     <div className="mt-14 max-w-[780px]">
       <p
         className="
@@ -557,6 +597,7 @@ function AIRecruitmentPage() {
         into understanding.
       </p>
     </div>
+    </ScrollReveal>
 
   </div>
 </section>
@@ -568,90 +609,103 @@ function AIRecruitmentPage() {
   <div className="page-container">
 
     {/* Intro */}
-    <div className="max-w-[820px]">
-      <p className="section-label">
-        The Minivel Approach
-      </p>
+    <ScrollReveal>
+      <div className="max-w-[820px]">
+        <p className="section-label">
+          The Minivel Approach
+        </p>
 
-      <h2 className="document-heading">
-        Technology can organise information.
-        <span className="mt-2 block text-slate-500">
-          Experience gives it direction.
-        </span>
-      </h2>
+        <h2 className="document-heading">
+          Technology can organise information.
+          <span className="mt-2 block text-slate-500">
+            Experience gives it direction.
+          </span>
+        </h2>
 
-      <p className="document-text">
-        For Minivel, recruitment is not only about finding a profile that
-        matches a list of skills. It is about understanding what the business
-        actually needs, what the candidate is looking for and whether the
-        opportunity makes sense for both sides.
-      </p>
-    </div>
+        <p className="document-text">
+          For Minivel, recruitment is not only about finding a profile that
+          matches a list of skills. It is about understanding what the business
+          actually needs, what the candidate is looking for and whether the
+          opportunity makes sense for both sides.
+        </p>
+      </div>
+    </ScrollReveal>
 
 
     {/* Approach cards */}
-    <div className="mt-16 grid gap-6 md:grid-cols-3">
+    <div className="mt-16 grid items-stretch gap-6 md:grid-cols-3">
 
-      <article className="premium-card">
-        <p className="premium-card-label">
-          Step 01
-        </p>
+      {/* Step 01 */}
+      <ScrollReveal delay={0} className="h-full">
+        <article className="premium-card h-full">
+          <p className="premium-card-label">
+            Step 01
+          </p>
 
-        <h3 className="premium-card-title">
-          Understand the Role
-        </h3>
+          <h3 className="premium-card-title">
+            Understand the Role
+          </h3>
 
-        <p className="premium-card-text">
-          Start with the business need, the responsibilities behind the role
-          and what success should actually look like.
-        </p>
-      </article>
-
-
-      <article className="premium-card">
-        <p className="premium-card-label">
-          Step 02
-        </p>
-
-        <h3 className="premium-card-title">
-          Understand the Person
-        </h3>
-
-        <p className="premium-card-text">
-          Look beyond experience to understand motivation, expectations and
-          what the candidate wants from the next opportunity.
-        </p>
-      </article>
+          <p className="premium-card-text">
+            Start with the business need, the responsibilities behind the role
+            and what success should actually look like.
+          </p>
+        </article>
+      </ScrollReveal>
 
 
-      <article className="premium-card">
-        <p
-          className="premium-card-label"
-          style={{ color: "#5fbe3e" }}
-        >
-          Step 03
-        </p>
+      {/* Step 02 */}
+      <ScrollReveal delay={0.12} className="h-full">
+        <article className="premium-card h-full">
+          <p className="premium-card-label">
+            Step 02
+          </p>
 
-        <h3 className="premium-card-title">
-          Connect the Two
-        </h3>
+          <h3 className="premium-card-title">
+            Understand the Person
+          </h3>
 
-        <p className="premium-card-text">
-          Bring the opportunity and the candidate together where the fit is
-          meaningful for both the organisation and the person.
-        </p>
-      </article>
+          <p className="premium-card-text">
+            Look beyond experience to understand motivation, expectations and
+            what the candidate wants from the next opportunity.
+          </p>
+        </article>
+      </ScrollReveal>
+
+
+      {/* Step 03 */}
+      <ScrollReveal delay={0.24} className="h-full">
+        <article className="premium-card h-full">
+          <p
+            className="premium-card-label"
+            style={{ color: "#5fbe3e" }}
+          >
+            Step 03
+          </p>
+
+          <h3 className="premium-card-title">
+            Connect the Two
+          </h3>
+
+          <p className="premium-card-text">
+            Bring the opportunity and the candidate together where the fit is
+            meaningful for both the organisation and the person.
+          </p>
+        </article>
+      </ScrollReveal>
 
     </div>
 
 
     {/* Closing statement */}
-    <div className="mt-14 max-w-[760px]">
-      <p className="text-[17px] font-medium leading-[1.85] text-[#172b4d]">
-        AI can support the process with better information. Recruiter
-        experience is what turns that information into a decision.
-      </p>
-    </div>
+    <ScrollReveal delay={0.1}>
+      <div className="mt-14 max-w-[760px]">
+        <p className="text-[17px] font-medium leading-[1.85] text-[#172b4d]">
+          AI can support the process with better information. Recruiter
+          experience is what turns that information into a decision.
+        </p>
+      </div>
+    </ScrollReveal>
 
   </div>
 </section>
@@ -663,88 +717,92 @@ function AIRecruitmentPage() {
   <div className="page-container py-24 md:py-28">
 
     {/* Intro */}
-    <div className="max-w-[820px]">
-      <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-green-400">
-        AI × Human Intelligence
-      </p>
+    <ScrollReveal>
+      <div className="max-w-[820px]">
+        <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-green-400">
+          AI × Human Intelligence
+        </p>
 
-      <h2
-        className="
-          mt-6
-          max-w-[780px]
-          text-[34px]
-          font-semibold
-          leading-[1.22]
-          tracking-[-0.03em]
-          text-white
-          sm:text-[40px]
-          lg:text-[44px]
-        "
-      >
-        AI can help us see more.
+        <h2
+          className="
+            mt-6
+            max-w-[780px]
+            text-[34px]
+            font-semibold
+            leading-[1.22]
+            tracking-[-0.03em]
+            text-white
+            sm:text-[40px]
+            lg:text-[44px]
+          "
+        >
+          AI can help us see more.
 
-        <span className="mt-3 block text-green-400">
-          People help us understand more.
-        </span>
-      </h2>
+          <span className="mt-3 block text-green-400">
+            People help us understand more.
+          </span>
+        </h2>
 
-      <p
-        className="
-          mt-9
-          max-w-[720px]
-          text-[16px]
-          leading-[1.9]
-          text-slate-300
-          sm:text-[17px]
-        "
-      >
-        Technology can make recruitment information easier to work with.
-        Recruiters bring the context that turns that information into a
-        meaningful hiring decision.
-      </p>
-    </div>
+        <p
+          className="
+            mt-9
+            max-w-[720px]
+            text-[16px]
+            leading-[1.9]
+            text-slate-300
+            sm:text-[17px]
+          "
+        >
+          Technology can make recruitment information easier to work with.
+          Recruiters bring the context that turns that information into a
+          meaningful hiring decision.
+        </p>
+      </div>
+    </ScrollReveal>
 
 
     {/* Comparison area */}
     <div className="mt-16 border-y border-white/10">
 
       {/* AI row */}
-      <div
-        className="
-          grid
-          gap-8
-          py-10
-          md:grid-cols-[0.42fr_1fr]
-          md:items-start
-          md:gap-16
-        "
-      >
-        <div>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-blue-300">
-            AI Supports
-          </p>
+      <ScrollReveal>
+        <div
+          className="
+            grid
+            gap-8
+            py-10
+            md:grid-cols-[0.42fr_1fr]
+            md:items-start
+            md:gap-16
+          "
+        >
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-blue-300">
+              AI Supports
+            </p>
 
-          <h3 className="mt-4 text-[24px] font-semibold leading-[1.3] text-white">
-            Discovery,
-            <span className="block text-slate-300">
-              comparison and organisation.
-            </span>
-          </h3>
+            <h3 className="mt-4 text-[24px] font-semibold leading-[1.3] text-white">
+              Discovery,
+              <span className="block text-slate-300">
+                comparison and organisation.
+              </span>
+            </h3>
+          </div>
+
+          <div className="max-w-[650px]">
+            <p className="text-[16px] leading-[1.9] text-slate-200">
+              AI can help recruitment teams work through larger candidate pools,
+              organise profile information and identify patterns that deserve
+              closer attention.
+            </p>
+
+            <p className="mt-5 text-[15px] leading-[1.85] text-slate-400">
+              The value is speed and structure — helping recruiters reach the
+              right profiles with less time spent sorting through noise.
+            </p>
+          </div>
         </div>
-
-        <div className="max-w-[650px]">
-          <p className="text-[16px] leading-[1.9] text-slate-200">
-            AI can help recruitment teams work through larger candidate pools,
-            organise profile information and identify patterns that deserve
-            closer attention.
-          </p>
-
-          <p className="mt-5 text-[15px] leading-[1.85] text-slate-400">
-            The value is speed and structure — helping recruiters reach the
-            right profiles with less time spent sorting through noise.
-          </p>
-        </div>
-      </div>
+      </ScrollReveal>
 
 
       {/* Divider */}
@@ -752,54 +810,58 @@ function AIRecruitmentPage() {
 
 
       {/* Human row */}
-      <div
-        className="
-          grid
-          gap-8
-          py-10
-          md:grid-cols-[0.42fr_1fr]
-          md:items-start
-          md:gap-16
-        "
-      >
-        <div>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-green-300">
-            Recruiters Bring
-          </p>
+      <ScrollReveal delay={0.1}>
+        <div
+          className="
+            grid
+            gap-8
+            py-10
+            md:grid-cols-[0.42fr_1fr]
+            md:items-start
+            md:gap-16
+          "
+        >
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-green-300">
+              Recruiters Bring
+            </p>
 
-          <h3 className="mt-4 text-[24px] font-semibold leading-[1.3] text-white">
-            Conversation,
-            <span className="block text-slate-300">
-              context and judgement.
-            </span>
-          </h3>
+            <h3 className="mt-4 text-[24px] font-semibold leading-[1.3] text-white">
+              Conversation,
+              <span className="block text-slate-300">
+                context and judgement.
+              </span>
+            </h3>
+          </div>
+
+          <div className="max-w-[650px]">
+            <p className="text-[16px] leading-[1.9] text-slate-200">
+              Recruiters understand why someone is considering a move, what they
+              expect from the next opportunity and how the role fits into their
+              career.
+            </p>
+
+            <p className="mt-5 text-[15px] leading-[1.85] text-slate-400">
+              That understanding comes from communication, experience and the
+              ability to interpret the person behind the profile.
+            </p>
+          </div>
         </div>
-
-        <div className="max-w-[650px]">
-          <p className="text-[16px] leading-[1.9] text-slate-200">
-            Recruiters understand why someone is considering a move, what they
-            expect from the next opportunity and how the role fits into their
-            career.
-          </p>
-
-          <p className="mt-5 text-[15px] leading-[1.85] text-slate-400">
-            That understanding comes from communication, experience and the
-            ability to interpret the person behind the profile.
-          </p>
-        </div>
-      </div>
+      </ScrollReveal>
 
     </div>
 
 
     {/* Final statement */}
-    <div className="mt-14 max-w-[820px]">
-      <p className="text-[18px] font-medium leading-[1.85] text-white">
-        Better hiring is not about choosing between AI and recruiters.
-        It is about using technology where it helps and human judgement where
-        it matters.
-      </p>
-    </div>
+    <ScrollReveal delay={0.1}>
+      <div className="mt-14 max-w-[820px]">
+        <p className="text-[18px] font-medium leading-[1.85] text-white">
+          Better hiring is not about choosing between AI and recruiters.
+          It is about using technology where it helps and human judgement where
+          it matters.
+        </p>
+      </div>
+    </ScrollReveal>
 
   </div>
 </section>
