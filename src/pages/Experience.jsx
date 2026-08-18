@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 import ExperienceBackground from "../components/ExperienceBackground";
 import BottomNavigation from "../components/BottomNavigation";
 import { experienceSections } from "../data/experienceSections";
-import { useNavigate } from "react-router-dom";
 
 function Experience() {
   const navigate = useNavigate();
@@ -43,14 +43,7 @@ function Experience() {
                 className="max-w-[860px] py-24"
               >
                 {/* Eyebrow */}
-                <div className="flex items-center gap-4">
-                  <span
-                    className="h-[2px] w-10 shrink-0 rounded-full"
-                    style={{
-                      backgroundColor: section.theme.accent,
-                    }}
-                  />
-
+                <div className="flex items-center">
                   <p
                     className="text-[12px] font-semibold uppercase tracking-[0.24em]"
                     style={{
@@ -87,14 +80,14 @@ function Experience() {
 
                 {/* CTA */}
                 <div className="mt-10">
-                 <button
-  type="button"
-  className="dark-button"
-  onClick={() => navigate(section.detailPath)}
->
-  {section.cta}
-  <span aria-hidden="true">→</span>
-</button>
+                  <button
+                    type="button"
+                    className="dark-button"
+                    onClick={() => navigate(section.detailPath)}
+                  >
+                    {section.cta}
+                    <span aria-hidden="true">→</span>
+                  </button>
                 </div>
               </motion.div>
             </AnimatePresence>

@@ -6,12 +6,12 @@ export const experienceSections = [
 
     eyebrow: "The Evolution of Recruitment",
 
-    title: "Hiring is changing.",
+    title: "Hiring is evolving.",
 
     highlight: "Intelligence is accelerating it.",
 
     description:
-      "Recruitment has always been about understanding people. AI adds a new layer of support — helping teams work through more information, identify relevant skills and discover talent more efficiently.",
+      "Recruitment has always been about understanding people. AI adds a new layer of intelligence, helping teams work through more information, identify relevant skills and discover talent more efficiently.",
 
     secondaryText:
       "The goal is not recruitment without people. It is recruitment where technology handles more of the complexity, giving recruiters more time to focus on conversations, context and decisions.",
@@ -32,17 +32,17 @@ export const experienceSections = [
 
     navLabel: "AI × Human Intelligence",
 
-    eyebrow: "People × Intelligence",
+    eyebrow: "Human Intelligence",
 
     title: "AI finds the signal.",
 
     highlight: "People understand the story.",
 
     description:
-      "Technology can support discovery, organise candidate information and help compare skills against role requirements. But a profile can never tell the entire story.",
+      "Technology can reveal patterns, organise information and bring relevant talent into focus. Human intelligence adds the context needed to understand the person, the opportunity and what connects them.",
 
     secondaryText:
-      "Recruiters bring the human context — understanding motivation, communication, expectations and fit. Technology supports that judgement rather than replacing it.",
+      "Recruiters understand motivation, communication, expectations and fit. That human judgement turns information into understanding and helps teams make stronger, more informed hiring decisions.",
 
     cta: "See how it works",
 
@@ -60,17 +60,17 @@ export const experienceSections = [
 
     navLabel: "The Minivel Advantage",
 
-    eyebrow: "Experience Meets Technology",
+    eyebrow: "The Minivel Difference",
 
     title: "Technology gives us scale.",
 
     highlight: "Experience gives it direction.",
 
     description:
-      "A decade of recruitment experience gives Minivel something technology alone cannot provide — an understanding of people, industries, businesses and the decisions behind successful hiring.",
+      "A decade of recruitment experience gives Minivel an understanding of people, industries and businesses that technology alone cannot provide, while modern tools help us work with greater speed and reach.",
 
     secondaryText:
-      "With 10,000+ careers built, 100+ brands and Pan-India reach, Minivel brings human expertise and modern recruitment tools together to connect the right talent with the right opportunity.",
+      "With 10,000+ careers built, 100+ brands and Pan-India reach, Minivel combines human expertise with recruitment intelligence to connect the right talent with the right opportunity.",
 
     cta: "Discover Minivel",
 

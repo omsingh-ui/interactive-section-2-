@@ -1078,7 +1078,6 @@ function HumanIntelligencePage() {
   <div
     style={{
       marginTop: "40px",
-        marginTop: "40px",
         padding: "26px 30px",
         borderRadius: "18px",
         border: "1px solid rgba(255,255,255,.10)",
