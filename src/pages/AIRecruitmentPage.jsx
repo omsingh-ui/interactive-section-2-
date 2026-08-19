@@ -155,7 +155,7 @@ function AIRecruitmentPage() {
       {/* ========================================
     SECTION 01 — THE SHIFT
 ========================================= */}
-<section className="document-section document-section--soft">
+<section className="document-section bg-[#F1F5F9]">
   <div className="page-container">
 
     {/* Intro */}
@@ -395,7 +395,7 @@ function AIRecruitmentPage() {
 {/* ========================================
     SECTION 03 — WHAT AI DOES NOT REPLACE
 ========================================= */}
-<section className="document-section document-section--soft">
+<section className="document-section bg-[#EEF4FA]">
   <div className="page-container">
 
    {/* Top split */}
@@ -605,7 +605,7 @@ function AIRecruitmentPage() {
 {/* ========================================
     SECTION 04 — THE MINIVEL APPROACH
 ========================================= */}
-<section className="document-section">
+<section className="document-section bg-[#F3F8F1]">
   <div className="page-container">
 
     {/* Intro */}
@@ -871,7 +871,7 @@ function AIRecruitmentPage() {
 ========================================= */}
 <section
   style={{
-    background: "#ffffff",
+    background: "#F8FAFC",
     padding: "96px 0",
   }}
 >
@@ -880,7 +880,7 @@ function AIRecruitmentPage() {
       style={{
         border: "1px solid #e2e8f0",
         borderRadius: "24px",
-        background: "#f8fafc",
+        background:"#ffffff",
         overflow: "hidden",
         boxShadow: "0 12px 36px rgba(23, 43, 77, 0.06)",
       }}

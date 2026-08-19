@@ -142,7 +142,7 @@ function MinivelAdvantagePage() {
      {/* ========================================
     SECTION 01 — WHAT MINIVEL BRINGS
 ========================================= */}
-<section className="document-section document-section--soft">
+<section className="document-section bg-[#F1F5F9]">
   <div className="page-container">
 
     {/* Intro */}
@@ -489,7 +489,7 @@ function MinivelAdvantagePage() {
 {/* ========================================
     SECTION 03 — HOW MINIVEL WORKS
 ========================================= */}
-<section className="document-section document-section--soft">
+<section className="document-section bg-[#EEF4FA]">
   <div className="page-container">
 
     {/* Intro */}
@@ -1231,10 +1231,7 @@ function MinivelAdvantagePage() {
       </article>
       </ScrollReveal>
     </div>
-
-    {/* ==============================
-        FINAL BRAND STATEMENT
-    ============================== */}
+    
     {/* ==============================
     FINAL BRAND STATEMENT
 ============================== */}

@@ -158,7 +158,7 @@ function HumanIntelligencePage() {
 {/* ========================================
     SECTION 01 — TWO DIFFERENT STRENGTHS
 ========================================= */}
-<section className="document-section document-section--soft">
+<section className="document-section bg-[#F1F5F9]">
   <div className="page-container">
 
     {/* Intro */}
@@ -479,7 +479,7 @@ function HumanIntelligencePage() {
 {/* ========================================
     SECTION 03 — THE CONVERSATION
 ========================================= */}
-<section className="document-section document-section--soft">
+<section className="document-section bg-[#EEF4FA]">
   <div className="page-container">
 
     {/* Intro */}
@@ -1066,11 +1066,6 @@ function HumanIntelligencePage() {
       </ScrollReveal>
 
     </div>
-
-
-    {/* =====================
-        MINIVEL STATEMENT
-    ====================== */}
    {/* =====================
     MINIVEL STATEMENT
 ====================== */}
@@ -1107,7 +1102,7 @@ function HumanIntelligencePage() {
 {/* ========================================
     SECTION 05 — HOW MINIVEL USES INTELLIGENCE
 ========================================= */}
-<section className="document-section">
+<section className="document-section bg-[#F3F8F1]">
   <div className="page-container">
 
     {/* Intro */}
@@ -1242,7 +1237,7 @@ function HumanIntelligencePage() {
 {/* ========================================
     SECTION 06 — THE MINIVEL HIRING PERSPECTIVE
 ========================================= */}
-<section className="document-section document-section--soft">
+<section className="document-section bg-[#F6F8FB]">
   <div className="page-container">
 
     {/* Intro */}
