@@ -880,7 +880,7 @@ function AIRecruitmentPage() {
       style={{
         border: "1px solid #e2e8f0",
         borderRadius: "24px",
-        background:"#ffffff",
+        background: "#ffffff",
         overflow: "hidden",
         boxShadow: "0 12px 36px rgba(23, 43, 77, 0.06)",
       }}
@@ -958,7 +958,7 @@ function AIRecruitmentPage() {
           </p>
         </div>
 
-        {/* CTA */}
+        {/* Forward CTA */}
         <Link
           to="/human-intelligence"
           style={{
@@ -966,24 +966,45 @@ function AIRecruitmentPage() {
             display: "inline-flex",
             alignItems: "center",
             justifyContent: "space-between",
-
             minWidth: "245px",
             minHeight: "54px",
-
             padding: "0 22px",
-
             borderRadius: "8px",
-
             background: "#172b4d",
             color: "#ffffff",
-
             fontSize: "14px",
             lineHeight: "1",
             fontWeight: 600,
-
             textDecoration: "none",
-
             boxShadow: "0 10px 24px rgba(23, 43, 77, 0.14)",
+            transition:
+              "transform .3s ease, background .3s ease, box-shadow .3s ease",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = "translateY(-4px)";
+            e.currentTarget.style.background = "#1f3a61";
+            e.currentTarget.style.boxShadow =
+              "0 18px 38px rgba(23, 43, 77, 0.20)";
+
+            const arrow =
+              e.currentTarget.querySelector(".continue-arrow");
+
+            if (arrow) {
+              arrow.style.transform = "translateX(4px)";
+            }
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "translateY(0)";
+            e.currentTarget.style.background = "#172b4d";
+            e.currentTarget.style.boxShadow =
+              "0 10px 24px rgba(23, 43, 77, 0.14)";
+
+            const arrow =
+              e.currentTarget.querySelector(".continue-arrow");
+
+            if (arrow) {
+              arrow.style.transform = "translateX(0)";
+            }
           }}
         >
           <span
@@ -996,10 +1017,13 @@ function AIRecruitmentPage() {
           </span>
 
           <span
+            className="continue-arrow"
             style={{
               marginLeft: "18px",
               color: "#ffffff",
               fontSize: "20px",
+              display: "inline-block",
+              transition: "transform .3s ease",
             }}
           >
             →
@@ -1011,9 +1035,7 @@ function AIRecruitmentPage() {
       <div
         style={{
           padding: "22px 56px",
-
           borderTop: "1px solid #e2e8f0",
-
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
@@ -1021,17 +1043,33 @@ function AIRecruitmentPage() {
           flexWrap: "wrap",
         }}
       >
+        {/* Back link */}
         <Link
           to="/experience"
-          style={{
-            color: "#64748b",
-            fontSize: "13px",
-            lineHeight: "1.5",
-            fontWeight: 600,
-            textDecoration: "none",
-          }}
+          className="
+            group
+            inline-flex
+            items-center
+            gap-3
+            text-[13px]
+            font-semibold
+            text-slate-500
+            transition-colors
+            duration-300
+            hover:text-[#5fbe3e]
+          "
         >
-          ← Back to Talent Intelligence
+          <span
+            className="
+              transition-transform
+              duration-300
+              group-hover:-translate-x-1
+            "
+          >
+            ←
+          </span>
+
+          Back to Talent Intelligence
         </Link>
 
         <p

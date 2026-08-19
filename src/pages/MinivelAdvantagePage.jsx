@@ -996,7 +996,7 @@ function MinivelAdvantagePage() {
             "transform .3s ease, background .3s ease, border-color .3s ease, box-shadow .3s ease",
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.transform = "translateY(-6px)";
+          e.currentTarget.style.transform = "translateY(-5px)";
           e.currentTarget.style.background = "rgba(255,255,255,0.075)";
           e.currentTarget.style.borderColor = "rgba(96,165,250,0.35)";
           e.currentTarget.style.boxShadow =
@@ -1079,7 +1079,7 @@ function MinivelAdvantagePage() {
             "transform .3s ease, background .3s ease, border-color .3s ease, box-shadow .3s ease",
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.transform = "translateY(-6px)";
+          e.currentTarget.style.transform = "translateY(-5px)";
           e.currentTarget.style.background = "rgba(255,255,255,0.075)";
           e.currentTarget.style.borderColor = "rgba(34,211,238,0.35)";
           e.currentTarget.style.boxShadow =
@@ -1162,7 +1162,7 @@ function MinivelAdvantagePage() {
             "transform .3s ease, background .3s ease, border-color .3s ease, box-shadow .3s ease",
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.transform = "translateY(-6px)";
+          e.currentTarget.style.transform = "translateY(-5px)";
           e.currentTarget.style.background = "rgba(255,255,255,0.075)";
           e.currentTarget.style.borderColor = "rgba(95,190,62,0.40)";
           e.currentTarget.style.boxShadow =
@@ -1231,7 +1231,7 @@ function MinivelAdvantagePage() {
       </article>
       </ScrollReveal>
     </div>
-    
+
     {/* ==============================
     FINAL BRAND STATEMENT
 ============================== */}

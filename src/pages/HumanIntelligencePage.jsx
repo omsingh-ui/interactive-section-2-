@@ -25,7 +25,7 @@ function HumanIntelligencePage() {
                 transition-colors
                 duration-300
                 hover:text-[#5fbe3e]
-              "
+                "
             >
               <span
                 className="
@@ -1423,7 +1423,6 @@ function HumanIntelligencePage() {
         </p>
       </div>
 
-
       {/* Next page button */}
       <div
         style={{
@@ -1454,12 +1453,26 @@ function HumanIntelligencePage() {
             e.currentTarget.style.background = "#213a63";
             e.currentTarget.style.boxShadow =
               "0 20px 45px rgba(23,43,77,0.20)";
+
+            const arrow =
+              e.currentTarget.querySelector(".next-arrow");
+
+            if (arrow) {
+              arrow.style.transform = "translateX(4px)";
+            }
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = "translateY(0)";
             e.currentTarget.style.background = "#172b4d";
             e.currentTarget.style.boxShadow =
               "0 14px 35px rgba(23,43,77,0.14)";
+
+            const arrow =
+              e.currentTarget.querySelector(".next-arrow");
+
+            if (arrow) {
+              arrow.style.transform = "translateX(0)";
+            }
           }}
         >
           <div>
@@ -1490,10 +1503,13 @@ function HumanIntelligencePage() {
           </div>
 
           <span
+            className="next-arrow"
             style={{
               flexShrink: 0,
               fontSize: "22px",
               color: "#5fbe3e",
+              display: "inline-block",
+              transition: "transform .3s ease",
             }}
           >
             →
@@ -1501,7 +1517,6 @@ function HumanIntelligencePage() {
         </Link>
       </div>
     </div>
-
 
     {/* Bottom divider + back */}
     <div
@@ -1513,17 +1528,32 @@ function HumanIntelligencePage() {
     >
       <Link
         to="/experience"
-        style={{
-          fontSize: "14px",
-          fontWeight: 600,
-          color: "#64748b",
-          textDecoration: "none",
-        }}
+        className="
+          group
+          inline-flex
+          items-center
+          gap-3
+          text-[14px]
+          font-semibold
+          text-slate-500
+          transition-colors
+          duration-300
+          hover:text-[#5fbe3e]
+        "
       >
-        ← Back to Talent Intelligence
+        <span
+          className="
+            transition-transform
+            duration-300
+            group-hover:-translate-x-1
+          "
+        >
+          ←
+        </span>
+
+        Back to Talent Intelligence
       </Link>
     </div>
-
   </div>
 </section>
     </main>
